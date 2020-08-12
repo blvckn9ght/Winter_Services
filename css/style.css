@@ -623,6 +623,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
+.section-about{
+
+  color: #03C4EB;
+  text-align: center;
+
+}
+
 /* Get Started Section
 --------------------------------*/
 #about {
@@ -1009,7 +1016,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   color: #03C4EB;
   text-align: center;
-  
+
 
 }
 
