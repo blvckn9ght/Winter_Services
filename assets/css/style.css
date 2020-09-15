@@ -1,10 +1,3 @@
-/**
-* Template Name: Imperial - v3.0.0
-* Template URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -20,7 +13,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #03c5ec;
+  color: #c40010;
   outline: none;
   text-decoration: none;
 }
@@ -76,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #03C4EB;
+  background: #c40010;
   color: #fff;
 }
 
@@ -130,14 +123,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #ccc;
+  color: #a100b3;
   margin-bottom: 50px;
 }
 
 #hero h2 span {
   color: #fff;
   transition: 0.3s;
-  border-bottom: 2px solid #03C4EB;
+  border-bottom: 2px solid #a100b3;
 }
 
 @media (max-width: 768px) {
@@ -169,8 +162,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #c40010;
+  border: 2px solid #a100b3;
   color: #fff;
 }
 
@@ -186,9 +179,122 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-services:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #a100b3;
+  border: 2px solid #a100b3;
 }
+
+/*------------------------------------------------------------
+
+HeroX Begins here
+
+-------------------------------------------------------------*/
+#heroX {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  background: url(../img/shadowdogs.gif) top center;
+  background-size: cover;
+}
+
+@media (min-width: 1024px) {
+  #heroX {
+    background-attachment: fixed;
+  }
+}
+
+#heroX .hero-logo {
+  margin: 20px;
+}
+
+#heroX .hero-logo img {
+  max-width: 100%;
+}
+
+#heroX .hero-container {
+  background: rgba(0, 0, 0, 0.8);
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#heroX h1 {
+  margin: 30px 0 10px 0;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #heroX h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#heroX h2 {
+  color: #a100b3;
+  margin-bottom: 50px;
+}
+
+#heroX h2 span {
+  color: #fff;
+  transition: 0.3s;
+  border-bottom: 2px solid #a100b3;
+}
+
+@media (max-width: 768px) {
+  #heroX h2 {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+  #heroX h2 .rotating {
+    display: block;
+  }
+}
+
+#heroX .rotating > .animated {
+  display: inline-block;
+}
+
+#heroX .actions a {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+}
+
+#heroX .btn-get-started {
+  background: #c40010;
+  border: 2px solid #a100b3;
+  color: #fff;
+}
+
+#heroX .btn-get-started:hover {
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#heroX .btn-services {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#heroX .btn-services:hover {
+  background: #a100b3;
+  border: 2px solid #a100b3;
+}
+
 
 /*--------------------------------------------------------------
 # Header
@@ -258,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #03C4EB;
+  color: #c40010;
 }
 
 .nav-menu .drop-down ul {
@@ -466,7 +572,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #03C4EB;
+  background: #c40010;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -529,11 +635,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #services .service-icon {
   float: left;
-  background: #03C4EB;
+  background: #c40010;
   padding: 16px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid #a100b3;
 }
 
 #services .service-icon i {
@@ -546,7 +652,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #services .service-item:hover .service-icon i {
-  color: #03C4EB;
+  color: #a100b3;
 }
 
 #services .service-title {
@@ -604,8 +710,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #subscribe .subscribe-btn:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #c40010;
+  border: 2px solid #a100b3;
 }
 
 /* Portfolio Section
@@ -635,7 +741,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  color: #03C4EB;
+  color: #a100b3;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -713,6 +819,17 @@ h1, h2, h3, h4, h5, h6 {
 #portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
 }
+
+
+#portfolio .portfolio-item .portfolio-info .header-link {
+  font-size: 16px;
+  color: #a100b3;
+  font-weight: 600;
+  margin-bottom: 5px;
+
+
+}
+
 
 /* Testimonials Section
 --------------------------------*/
@@ -836,7 +953,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #contact .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color: #a100b3;
   float: left;
 }
 
@@ -1081,6 +1198,6 @@ h1, h2, h3, h4, h5, h6 {
 #footer .credits {
   padding-top: 10px;
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
   color: #ccc;
 }
