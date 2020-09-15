@@ -1,6 +1,3 @@
-Thanks for downloading this template!
+Winter Services
 
-Template Name: Imperial
-Template URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+This website was designed as a business profile of Winter Services.
