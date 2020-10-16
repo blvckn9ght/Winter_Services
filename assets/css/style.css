@@ -1172,6 +1172,11 @@ HeroX Begins here
   padding: 0;
 }
 
+.portfolio-details .portfolio-description .play_ico {
+  margin: inherit;
+  
+  }
+
 @media (max-width: 768px) {
   .portfolio-details .portfolio-description h2 {
     width: 100%;
