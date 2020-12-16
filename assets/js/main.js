@@ -4,6 +4,18 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+var modal = document.getElementById("myModal");
+var modalsub = document.getElementById("myModalSub");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+var btnsub = document.getElementById("myBtnSub");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+
 !(function($) {
   "use strict";
 
@@ -16,7 +28,6 @@
     }
   });
 
-  // Hero typed
   if ($('.typed').length) {
     var typed_strings = $(".typed").data('typed-items');
     typed_strings = typed_strings.split(',')
@@ -28,6 +39,7 @@
       backDelay: 2000
     });
   }
+
 
   // Stick the header at top on scroll
   $("#header").sticky({
@@ -196,5 +208,30 @@
   $(window).on('load', function() {
     aos_init();
   });
+
+
+  // When the user clicks on the button, open the modal
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  btnsub.onclick = function() {
+    modalsub.style.display = "block";
+  }
+
+
 
 })(jQuery);
