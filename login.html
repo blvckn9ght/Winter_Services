@@ -1,0 +1,66 @@
+<html>
+<head>
+  <title>Firebase Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div id="login_div" class="main-div">
+    <h3>Winter Services</h3>
+    <h3>Welcome to Winter Services</h3>
+    <h5> Email Address </h5>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <h5> Password </h5>
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button onclick="login()">Login to Account</button>
+    <button onclick="signUp()">Create an Account</button>
+
+  </div>
+
+  <div id="signUp-div" class="main-div">
+
+    <h3>Welcome to Winter Services</h3>
+    <h5> Full Name </h5>
+    <input type="text" placeholder="Full Name" id="signUp_fullname_field" />
+    <h5> Phone Number </h5>
+    <input type="text" placeholder="Phone Number" id="signUp_phone_field" />
+    <h5> Email Address </h5>
+    <input type="email" placeholder="Email Address..." id="signUp_email_field" />
+    <h5> Password </h5>
+    <input type="password" placeholder="Password..." id="signUp_password_field" />
+
+
+    <button onclick="createAccount()">Create an Account</button>
+
+
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome User</h3>
+    <p id="user_para">Welcome to Winter Services. You're currently logged in.</p>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDWGOZbKGbBTLvbO5ITNDLG2lS1Nh60I7Y",
+      authDomain: "winter-services-e28e5.firebaseapp.com",
+      databaseURL: "https://winter-services-e28e5.firebaseio.com",
+      projectId: "winter-services-e28e5",
+      storageBucket: "winter-services-e28e5.appspot.com",
+      messagingSenderId: "545725987913",
+      appId: "1:545725987913:web:7609bcada8066f2ce5d398"
+        };
+    firebase.initializeApp(config);
+  </script>
+  <script src="js/index.js"></script>
+
+</body>
+</html>
