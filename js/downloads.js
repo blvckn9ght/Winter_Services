@@ -9,12 +9,12 @@ firebase.auth().onAuthStateChanged(function(user) {
     var user = firebase.auth().currentUser;
 
     if(user != null){
-    
+
     }
 
   } else {
     // No user is signed in.
-      window.open("login.html",'_top');
+      window.open("login",'_top');
 
 
   }
@@ -24,7 +24,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 function logout(){
   firebase.auth().signOut();
   window.alert("You have been logged out");
-  window.open("login.html",'_top');
+  window.open("login",'_top');
 
 
 }

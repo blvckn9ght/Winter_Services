@@ -10,7 +10,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 
       var email_id = user.email;
       document.getElementById("user_para").innerHTML = "Welcome User : " + email_id;
-      window.open("downloads.html",'_top');
+      window.open("downloads",'_top');
     }
 
   } else {
